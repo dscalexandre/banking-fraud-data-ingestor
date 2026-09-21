@@ -1,0 +1,15 @@
+version: 1
+capacidades:
+  - id: documentacao-aprendizagem
+    descricao: >-
+      Criar ou atualizar documentação de aprendizagem para um módulo integrado,
+      usando evidências de Issues e Pull Requests integrados.
+    skill: learning-documenter
+    perfil: learning-documenter
+    template_issue_padrao: entrega
+    templates_issue:
+      entrega: .github/ISSUE_TEMPLATE/01-entrega.md
+      bug: .github/ISSUE_TEMPLATE/02-bug.md
+    operacoes:
+      - criar
+      - atualizar
