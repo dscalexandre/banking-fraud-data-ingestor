@@ -1,9 +1,9 @@
 # ADR-<número> — <título>
 
 - **Status:** <Proposta | Aceita | Substituída>
-- **Data da decisão:** <dd/mm/aaaa>
+- **Data:** <dd/mm/aaaa>
 - **Responsáveis:** <responsáveis>
-- **Rastreabilidade:** Issue #<número>
+- **Rastreabilidade:** <Issue #<número> | Pull Request #<número>>
 
 ## Contexto
 
@@ -21,7 +21,7 @@
 
 ## Decisão
 
-<Registre a decisão aceita.>
+<Registre a decisão proposta ou aceita, conforme o status.>
 
 ## Consequências
 
