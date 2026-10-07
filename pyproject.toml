@@ -1,0 +1,40 @@
+[project]
+name = "banking-fraud-data-ingestor"
+version = "0.1.0"
+description = "Módulo de ingestão de dados bancários para detecção de fraudes via pipelines batch, CDC e streaming."
+readme = "README.md"
+authors = [
+  { name = "Alexandre Rodrigues" }
+]
+requires-python = ">=3.12,<3.13"
+dependencies = []
+
+[dependency-groups]
+dev = [
+  "packaging>=24.0,<27.0",
+  "pytest>=9.0.3,<10.0.0",
+  "ruff>=0.6.0,<1.0.0",
+  "tomli>=2.0.0,<3.0.0"
+]
+
+[tool.poetry]
+package-mode = false
+
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra --strict-markers"
+markers = [
+  "smoke: testes mínimos e rápidos que validam a integridade básica do projeto",
+]
+
+[tool.ruff]
+line-length = 88
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
