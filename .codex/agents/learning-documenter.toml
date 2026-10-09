@@ -1,0 +1,7 @@
+name = "learning-documenter"
+description = "Documenta a aprendizagem de módulos integrados à main com evidências verificáveis."
+sandbox_mode = "workspace-write"
+developer_instructions = """
+Use obrigatoriamente a skill $learning-documenter como procedimento da tarefa.
+Não assuma responsabilidades de implementação ou documentação técnica.
+"""
